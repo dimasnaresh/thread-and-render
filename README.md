@@ -1,4 +1,3 @@
-# thread-and-render
 i'am create this app in a purpose to show how to create graphics in Java using swing component...
 
 # manifest.mf

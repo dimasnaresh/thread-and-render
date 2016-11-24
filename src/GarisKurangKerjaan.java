@@ -54,8 +54,13 @@ public class GarisKurangKerjaan extends JPanel implements Runnable{
 
     //THIS SIMPLE METHOD...RUNNING WHEN LINE IS OUT OF AREA
     private void hitWall(){
+<<<<<<< HEAD
         int hitAct = JOptionPane.showConfirmDialog(index, "HIT WALL...CONTINUE ?", "Garis Kurang Kerjaan", JOptionPane.YES_NO_OPTION);
         if(hitAct == JOptionPane.NO_OPTION){
+=======
+        int hitAct = JOptionPane.showConfirmDialog(index, "HIT WALL...EXIT ?", "Garis Kurang Kerjaan", JOptionPane.YES_NO_OPTION);
+        if(hitAct == JOptionPane.YES_OPTION){
+>>>>>>> 98679e7189be69c28c5d5a993eed1ac578e6b5dc
             System.exit(1);
         }
     }
